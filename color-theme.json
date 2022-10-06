@@ -108,7 +108,7 @@
     },
     {
       "name": "Keyword",
-      "foreground": ""
+      "foreground": "#EA6962"
     },
     {
       "name": "Numeric",
@@ -140,11 +140,15 @@
     },
     {
       "name": "Comment",
-      "foreground": ""
+      "foreground": "#928374"
     },
     {
       "name": "Punctuation",
       "foreground": "#928374"
+    },
+    {
+      "name": "VariableName",
+      "foreground": "#D4BE98"
     }
   ]
 }
