@@ -1,9 +1,9 @@
 {
   "type": "dark",
   "colors": {
-    "ActivityBarBackground": "",
+    "ActivityBarBackground": "rgb(41, 40, 40)",
     "ActivityBarActiveForeground": "",
-    "ActivityBarForeground": "",
+    "ActivityBarForeground": "#a89984",
 
     "BadgeBackground": "",
     "BadgeForeground": "",
@@ -12,9 +12,9 @@
     "ContextMenuForeground": "",
 
     "EditorBackGround": "rgb(41, 40, 40)",
-    "EditorScrollBarBackground": "",
-    "EditorCursorBackground": "",
-    "EditorSelectionBackground": "",
+    "EditorScrollBarBackground": "rgba(124, 111, 100, 0.5)",
+    "EditorCursorBackground": "#d4be98",
+    "EditorSelectionBackground": "rgba(80, 73, 69, 0.69)",
 
     "FocusOutline": "",
 
@@ -42,21 +42,24 @@
     "QuickPickInputBackground": "",
 
     "SideBarBackground": "rgb(41, 40, 40)",
+    "SideBarForeground": "rgb(168, 153, 132)",
 
-    "StatusBarBackground": "",
+    "StatusBarBackground": "rgb(41, 40, 40)",
     "StatusBarBorderTopColor": "",
 
-    "TabActiveForeground": "",
-    "TabForeground": "",
+    "TabActiveForeground": "rgb(212, 190, 152)",
+    "TabForeground": "rgb(212, 190, 152)",
     "TabActiveBackground": "",
     "TabInactiveBackground": "",
 
     "TabsBackground": "",
 
-    "TitleBarBackground": "",
+    "TitleBarBackground": "rgb(41, 40, 40)",
     "TitleBarBorderBottomColor": "",
-    "TitleBarColor": "",
-    "TitleBarColorInactive": ""
+    "TitleBarForeground": "rgb(168, 153, 132)",
+    "TitleBarColorInactive": "",
+
+    "TreeItemForeground": "rgb(146, 131, 116)"
   },
   "tokenColors": [
     {
@@ -89,11 +92,15 @@
     },
     {
       "name": "JsonPropertyName",
-      "foreground": ""
+      "foreground": "#e78a4e"
+    },
+    {
+      "name": "JsonPropertyValueString",
+      "foreground": "#a9b665"
     },
     {
       "name": "LanguageConstant",
-      "foreground": ""
+      "foreground": "#d3869b"
     },
     {
       "name": "Keyword",
@@ -130,6 +137,10 @@
     {
       "name": "Comment",
       "foreground": ""
+    },
+    {
+      "name": "Punctuation",
+      "foreground": "#928374"
     }
   ]
 }
