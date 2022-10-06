@@ -8,8 +8,8 @@
     "BadgeBackground": "",
     "BadgeForeground": "",
 
-    "ContextMenuBackground": "",
-    "ContextMenuForeground": "",
+    "ContextMenuBackground": "rgb(41, 40, 40)",
+    "ContextMenuForeground": "rgb(168, 153, 132)",
 
     "EditorBackGround": "rgb(41, 40, 40)",
     "EditorScrollBarBackground": "rgba(124, 111, 100, 0.5)",
@@ -31,7 +31,8 @@
     "MainBackground": "rgb(41, 40, 40)",
 
     "MenuBackground": "",
-    "MenuItemHoverBackground": "",
+    "MenuForeground": "rgb(168, 153, 132)",
+    "MenuItemHoverBackground": "rgb(50, 48, 47)",
 
     "PanelBackground": "",
     "PanelBorderTopColor": "",
