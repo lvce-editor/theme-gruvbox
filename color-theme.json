@@ -1,0 +1,135 @@
+{
+  "type": "dark",
+  "colors": {
+    "ActivityBarBackground": "",
+    "ActivityBarActiveForeground": "",
+    "ActivityBarForeground": "",
+
+    "BadgeBackground": "",
+    "BadgeForeground": "",
+
+    "ContextMenuBackground": "",
+    "ContextMenuForeground": "",
+
+    "EditorBackGround": "rgb(41, 40, 40)",
+    "EditorScrollBarBackground": "",
+    "EditorCursorBackground": "",
+    "EditorSelectionBackground": "",
+
+    "FocusOutline": "",
+
+    "InputBoxBackground": "",
+    "InputBoxForeground": "",
+
+    "ListActiveSelectionBackground": "",
+    "ListActiveSelectionForeground": "",
+    "ListHoverBackground": "",
+    "ListHoverForeground": "",
+    "ListInactiveSelectionBackground": "",
+    "ListForeground": "",
+
+    "MainBackground": "rgb(41, 40, 40)",
+
+    "MenuBackground": "",
+    "MenuItemHoverBackground": "",
+
+    "PanelBackground": "",
+    "PanelBorderTopColor": "",
+    "PanelTabHoverForeground": "",
+    "PanelTabForeground": "",
+
+    "QuickPickBackground": "",
+    "QuickPickInputBackground": "",
+
+    "SideBarBackground": "rgb(41, 40, 40)",
+
+    "StatusBarBackground": "",
+    "StatusBarBorderTopColor": "",
+
+    "TabActiveForeground": "",
+    "TabForeground": "",
+    "TabActiveBackground": "",
+    "TabInactiveBackground": "",
+
+    "TabsBackground": "",
+
+    "TitleBarBackground": "",
+    "TitleBarBorderBottomColor": "",
+    "TitleBarColor": "",
+    "TitleBarColorInactive": ""
+  },
+  "tokenColors": [
+    {
+      "name": "CssSelector",
+      "foreground": ""
+    },
+    {
+      "name": "CssPropertyName",
+      "foreground": ""
+    },
+    {
+      "name": "CssPropertyValue",
+      "foreground": ""
+    },
+    {
+      "name": "TagName",
+      "foreground": ""
+    },
+    {
+      "name": "AttributeName",
+      "foreground": ""
+    },
+    {
+      "name": "String",
+      "foreground": ""
+    },
+    {
+      "name": "PunctuationString",
+      "foreground": ""
+    },
+    {
+      "name": "JsonPropertyName",
+      "foreground": ""
+    },
+    {
+      "name": "LanguageConstant",
+      "foreground": ""
+    },
+    {
+      "name": "Keyword",
+      "foreground": ""
+    },
+    {
+      "name": "Numeric",
+      "foreground": ""
+    },
+    {
+      "name": "KeywordImport",
+      "foreground": ""
+    },
+    {
+      "name": "Type",
+      "foreground": ""
+    },
+    {
+      "name": "Macro",
+      "foreground": ""
+    },
+    {
+      "name": "KeywordControl",
+      "foreground": ""
+    },
+    {
+      "name": "Regex",
+      "foreground": ""
+    },
+    {
+      "name": "Function",
+      "foreground": ""
+    },
+    {
+      "name": "Comment",
+      "foreground": ""
+    }
+  ]
+}
