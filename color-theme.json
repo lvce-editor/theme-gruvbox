@@ -76,19 +76,23 @@
     },
     {
       "name": "TagName",
-      "foreground": ""
+      "foreground": "#E78A4E"
     },
     {
       "name": "AttributeName",
-      "foreground": ""
+      "foreground": "#D8A657"
     },
     {
       "name": "String",
-      "foreground": ""
+      "foreground": "#A9B665"
     },
     {
       "name": "PunctuationString",
       "foreground": ""
+    },
+    {
+      "name": "PunctuationTag",
+      "foreground": "#A9B665"
     },
     {
       "name": "JsonPropertyName",
