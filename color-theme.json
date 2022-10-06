@@ -2,8 +2,8 @@
   "type": "dark",
   "colors": {
     "ActivityBarBackground": "rgb(41, 40, 40)",
-    "ActivityBarActiveForeground": "",
-    "ActivityBarForeground": "#a89984",
+    "ActivityBarActiveForeground": "rgb(168, 153, 132)",
+    "ActivityBarForeground": "rgb(124, 111, 100)",
 
     "BadgeBackground": "",
     "BadgeForeground": "",
@@ -34,10 +34,12 @@
     "MenuForeground": "rgb(168, 153, 132)",
     "MenuItemHoverBackground": "rgb(50, 48, 47)",
 
-    "PanelBackground": "",
+    "PanelBackground": "rgb(41, 40, 40)",
     "PanelBorderTopColor": "",
     "PanelTabHoverForeground": "",
-    "PanelTabForeground": "",
+    "PanelTabActiveForeground": "#a89984",
+    "PanelTabHoverForeground": "#a89984",
+    "PanelTabForeground": "rgb(124, 111, 100)",
 
     "QuickPickBackground": "",
     "QuickPickInputBackground": "",
