@@ -64,15 +64,15 @@
   "tokenColors": [
     {
       "name": "CssSelector",
-      "foreground": ""
+      "foreground": "#EA6962"
     },
     {
       "name": "CssPropertyName",
-      "foreground": ""
+      "foreground": "#89B482"
     },
     {
       "name": "CssPropertyValue",
-      "foreground": ""
+      "foreground": "#A9B665"
     },
     {
       "name": "TagName",
@@ -112,7 +112,7 @@
     },
     {
       "name": "Numeric",
-      "foreground": ""
+      "foreground": "#A9B665"
     },
     {
       "name": "KeywordImport",
