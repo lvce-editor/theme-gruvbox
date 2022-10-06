@@ -149,6 +149,10 @@
     {
       "name": "VariableName",
       "foreground": "#D4BE98"
+    },
+    {
+      "name": "Text",
+      "foreground": "#d4be98"
     }
   ]
 }
