@@ -153,6 +153,10 @@
     {
       "name": "Text",
       "foreground": "#d4be98"
+    },
+    {
+      "name": "KeywordReturn",
+      "foreground": "#EA6962"
     }
   ]
 }
