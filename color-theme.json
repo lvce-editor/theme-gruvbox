@@ -8,6 +8,10 @@
     "BadgeBackground": "",
     "BadgeForeground": "",
 
+    "CompletionListBackground": "#383432",
+    "CompletionListForeground": "#d4be98",
+    "CompletionListBorder": "#383432",
+
     "ContextMenuBackground": "rgb(41, 40, 40)",
     "ContextMenuForeground": "rgb(168, 153, 132)",
 
@@ -30,7 +34,7 @@
 
     "MainBackground": "rgb(41, 40, 40)",
 
-    "MenuBackground": "",
+    "MenuBackground": "rgb(41, 40, 40)",
     "MenuForeground": "rgb(168, 153, 132)",
     "MenuItemHoverBackground": "rgb(50, 48, 47)",
 
