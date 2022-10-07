@@ -119,7 +119,7 @@
     },
     {
       "name": "KeywordImport",
-      "foreground": ""
+      "foreground": "#89B482"
     },
     {
       "name": "Type",
@@ -131,11 +131,11 @@
     },
     {
       "name": "KeywordControl",
-      "foreground": ""
+      "foreground": "#EA6962"
     },
     {
       "name": "Regex",
-      "foreground": ""
+      "foreground": "#D8A657"
     },
     {
       "name": "Function",
@@ -164,6 +164,10 @@
     {
       "name": "Heading",
       "foreground": "#E78A4E"
+    },
+    {
+      "name": "KeywordNew",
+      "foreground": "#EA6962"
     }
   ]
 }
