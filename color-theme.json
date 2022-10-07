@@ -21,12 +21,12 @@
     "InputBoxBackground": "",
     "InputBoxForeground": "",
 
-    "ListActiveSelectionBackground": "",
+    "ListActiveSelectionBackground": "rgba(69, 64, 61, 0.38)",
     "ListActiveSelectionForeground": "",
-    "ListHoverBackground": "",
+    "ListHoverBackground": "rgba(69, 64, 61, 0.38)",
     "ListHoverForeground": "",
     "ListInactiveSelectionBackground": "",
-    "ListForeground": "",
+    "ListForeground": "rgb(212, 190, 152)",
 
     "MainBackground": "rgb(41, 40, 40)",
 
@@ -41,7 +41,7 @@
     "PanelTabHoverForeground": "#a89984",
     "PanelTabForeground": "rgb(124, 111, 100)",
 
-    "QuickPickBackground": "",
+    "QuickPickBackground": "rgb(41, 40, 40)",
     "QuickPickInputBackground": "",
 
     "SideBarBackground": "rgb(41, 40, 40)",
