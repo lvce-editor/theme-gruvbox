@@ -1,11 +1,11 @@
 {
   "id": "builtin.theme-gruvbox",
-  "name": "Cobalt 2 Theme",
-  "description": "🔥 Official theme by Wes Bos.",
+  "name": "Gruvbox",
+  "description": "Theme based on gruvbox-material-vscode theme by sainnhe",
   "colorThemes": [
     {
       "id": "gruvbox",
-      "label": "Cobalt 2",
+      "label": "Gruvbox",
       "path": "color-theme.json"
     }
   ]
