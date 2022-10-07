@@ -160,6 +160,10 @@
     {
       "name": "KeywordReturn",
       "foreground": "#EA6962"
+    },
+    {
+      "name": "Heading",
+      "foreground": "#E78A4E"
     }
   ]
 }
