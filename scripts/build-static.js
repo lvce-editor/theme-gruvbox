@@ -166,6 +166,22 @@ replaceSync(
   `return \`\${extensionPath}\${value}\``,
   `return \`${pathPrefix}/${commitHash}/file-icons/\${value.slice(7)}\``
 )
+
+// workaround for firefox bug
+replaceSync(
+  join(
+    root,
+    'dist',
+    commitHash,
+    'packages',
+    'renderer-worker',
+    'dist',
+    'rendererWorkerMain.js'
+  ),
+  `//# sourceMappingURL`,
+  `export {}
+//# sourceMappingURL`
+)
 replaceSync(
   join(root, 'dist', commitHash, 'config', 'defaultSettings.json'),
   `"workbench.colorTheme": "slime"`,
@@ -266,7 +282,32 @@ for (const themeDirent of themeDirents) {
   )
 }
 
-const themeIds = [...themeDirents.map(getThemeName), name]
+const compare = (a, b) => {
+  return a.localeCompare(b)
+}
+
+const toSorted = (objects, compare) => {
+  return [...objects].sort(compare)
+}
+
+const mergeThemes = (builtinThemes, extensionThemes) => {
+  const seen = []
+  const merged = []
+  for (const extensionTheme of extensionThemes) {
+    seen.push(extensionTheme)
+    merged.push(extensionTheme)
+  }
+  for (const builtinTheme of builtinThemes) {
+    if (seen.includes(builtinTheme)) {
+      continue
+    }
+    merged.push(builtinTheme)
+  }
+  const sorted = toSorted(merged, compare)
+  return sorted
+}
+
+const themeIds = mergeThemes(themeDirents.map(getThemeName), [name])
 writeJson(join(root, 'dist', commitHash, 'config', 'themes.json'), themeIds)
 
 for (const iconThemeDirent of iconThemeDirents) {
@@ -365,5 +406,3 @@ replaceSync(
   `/${commitHash}`,
   `${pathPrefix}/${commitHash}`
 )
-
-// replaceSync(join(root, ))
