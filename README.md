@@ -1,5 +1,7 @@
 # Theme Gruvbox
 
+![demo](./images/demo.png)
+
 ## Contributing
 
 ```sh
