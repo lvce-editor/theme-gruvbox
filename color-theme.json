@@ -172,6 +172,14 @@
     {
       "name": "KeywordNew",
       "foreground": "#EA6962"
+    },
+    {
+      "name": "YamlPropertyName",
+      "foreground": "#E78A4E"
+    },
+    {
+      "name": "YamlPropertyValueString",
+      "foreground": "#A9B665"
     }
   ]
 }
