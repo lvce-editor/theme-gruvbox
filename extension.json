@@ -1,6 +1,6 @@
 {
   "id": "builtin.theme-gruvbox",
-  "name": "Gruvbox",
+  "name": "Gruvbox Theme",
   "description": "Theme based on gruvbox-material-vscode theme by sainnhe",
   "colorThemes": [
     {
