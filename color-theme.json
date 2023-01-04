@@ -138,6 +138,10 @@
       "foreground": "#EA6962"
     },
     {
+      "name": "KeywordOperator",
+      "foreground": "#EA6962"
+    },
+    {
       "name": "Regex",
       "foreground": "#D8A657"
     },
