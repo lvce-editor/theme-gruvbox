@@ -208,6 +208,10 @@
     {
       "name": "MarkdownString",
       "foreground": "#A9B665"
+    },
+    {
+      "name": "KeywordModifier",
+      "foreground": "#E78A4E"
     }
   ]
 }
