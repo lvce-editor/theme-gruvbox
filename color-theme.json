@@ -66,7 +66,9 @@
     "TitleBarForeground": "rgb(168, 153, 132)",
     "TitleBarColorInactive": "",
 
-    "TreeItemForeground": "rgb(146, 131, 116)"
+    "TreeItemForeground": "rgb(146, 131, 116)",
+
+    "WorkbenchForeground": "#a89984"
   },
   "tokenColors": [
     {
