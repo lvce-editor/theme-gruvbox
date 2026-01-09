@@ -18,5 +18,6 @@
     "@lvce-editor/package-extension": "^2.2.0",
     "@lvce-editor/server": "^0.69.3",
     "eslint": "^9.39.2"
-  }
+  },
+  "author": "Lvce Editor"
 }
