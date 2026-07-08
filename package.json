@@ -1,6 +1,9 @@
 {
   "name": "theme-gruvbox",
   "version": "0.0.0-dev",
+  "categories": [
+    "Themes"
+  ],
   "type": "module",
   "main": "index.js",
   "license": "MIT",
